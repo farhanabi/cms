@@ -3,7 +3,7 @@
 const fs = require("fs");
 const path = require("path");
 const mime = require("mime-types");
-const { posts, authors } = require("../../data/data.json");
+const { videos, categories } = require("../../data/data.json");
 
 /**
  * An asynchronous bootstrap function that runs before
@@ -99,46 +99,38 @@ async function createEntry({ model, entry, files }) {
   }
 }
 
-async function importAuthors() {
+async function importCategories() {
   return Promise.all(
-    authors.map(async (author) => {
-      const slugifiedName = author.name.split(" ").join('').toLowerCase()
+    categories.map(async (category) => {
       const files = {
-        picture: getFileData(
-          `${slugifiedName}.jpg`
-        ),
+        picture: getFileData(`${category.image.name}`),
       };
 
       return createEntry({
-        model: "author",
-        entry: author,
+        model: "categories",
+        entry: category,
         files,
       });
     })
   );
 }
 
-async function importPosts() {
+async function importVideos() {
   return Promise.all(
-    posts.map((post) => {
-      const files = {
-        coverImage: getFileData(`${post.slug}.jpg`),
-      };
-      return createEntry({ model: "post", entry: post, files });
-    })
+    videos.map((video) => createEntry({ model: "video", entry: video }))
   );
 }
 
 async function importSeedData() {
   // Allow read of application content types
   await setPublicPermissions({
-    post: ["find", "findone"],
-    author: ["find", "findone"],
+    categories: ["find", "findone"],
+    video: ["find", "findone"],
   });
 
   // Create all entries
-  await importAuthors();
-  await importPosts();
+  await importCategories();
+  await importVideos();
 }
 
 module.exports = async () => {
