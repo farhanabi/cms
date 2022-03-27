@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categories",
+  "info": {
+    "name": "Categories",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid"
+    },
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "isAvailable": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "color": {
+      "type": "string"
+    }
+  }
+}
