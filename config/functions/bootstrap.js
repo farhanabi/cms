@@ -102,13 +102,14 @@ async function createEntry({ model, entry, files }) {
 async function importCategories() {
   return Promise.all(
     categories.map(async (category) => {
+      const { image, ...remaining } = category;
       const files = {
-        picture: getFileData(`${category.image.name}`),
+        image: getFileData(image.name),
       };
 
       return createEntry({
         model: "categories",
-        entry: category,
+        entry: remaining,
         files,
       });
     })

@@ -6,26 +6,8 @@
       "name": "Motorik",
       "isAvailable": true,
       "color": "#E09090",
-      "created_at": "2022-03-22T10:32:15.027Z",
-      "updated_at": "2022-03-24T10:27:34.166Z",
       "image": {
-        "id": 8,
-        "name": "juggling-ball.png",
-        "alternativeText": "",
-        "caption": "",
-        "width": 73,
-        "height": 73,
-        "formats": null,
-        "hash": "juggling_ball_0c8337d822",
-        "ext": ".png",
-        "mime": "image/png",
-        "size": 2.8,
-        "url": "/uploads/juggling_ball_0c8337d822.png",
-        "previewUrl": null,
-        "provider": "local",
-        "provider_metadata": null,
-        "created_at": "2022-03-22T10:31:24.207Z",
-        "updated_at": "2022-03-22T10:31:24.213Z"
+        "name": "juggling-ball.png"
       }
     },
     {
@@ -34,26 +16,8 @@
       "name": "Sensorik",
       "isAvailable": true,
       "color": "#D9D1BA",
-      "created_at": "2022-03-22T10:33:14.731Z",
-      "updated_at": "2022-03-24T10:27:54.699Z",
       "image": {
-        "id": 9,
-        "name": "search.png",
-        "alternativeText": "",
-        "caption": "",
-        "width": 73,
-        "height": 73,
-        "formats": null,
-        "hash": "search_e816f194ea",
-        "ext": ".png",
-        "mime": "image/png",
-        "size": 3.21,
-        "url": "/uploads/search_e816f194ea.png",
-        "previewUrl": null,
-        "provider": "local",
-        "provider_metadata": null,
-        "created_at": "2022-03-22T10:33:11.542Z",
-        "updated_at": "2022-03-22T10:33:11.549Z"
+        "name": "search.png"
       }
     },
     {
@@ -62,26 +26,8 @@
       "name": "Kognitif",
       "isAvailable": true,
       "color": "#EDB64A",
-      "created_at": "2022-03-22T11:30:53.867Z",
-      "updated_at": "2022-03-24T10:26:48.914Z",
       "image": {
-        "id": 10,
-        "name": "brain.png",
-        "alternativeText": "",
-        "caption": "",
-        "width": 74,
-        "height": 74,
-        "formats": null,
-        "hash": "brain_181fa7a5e1",
-        "ext": ".png",
-        "mime": "image/png",
-        "size": 4.08,
-        "url": "/uploads/brain_181fa7a5e1.png",
-        "previewUrl": null,
-        "provider": "local",
-        "provider_metadata": null,
-        "created_at": "2022-03-22T11:30:50.152Z",
-        "updated_at": "2022-03-22T11:30:50.159Z"
+        "name": "brain.png"
       }
     },
     {
@@ -90,26 +36,8 @@
       "name": "Seni",
       "isAvailable": false,
       "color": "#7ADFED",
-      "created_at": "2022-03-22T11:31:57.478Z",
-      "updated_at": "2022-03-24T10:27:43.886Z",
       "image": {
-        "id": 11,
-        "name": "palette.png",
-        "alternativeText": "",
-        "caption": "",
-        "width": 75,
-        "height": 75,
-        "formats": null,
-        "hash": "palette_5dcb79f0e6",
-        "ext": ".png",
-        "mime": "image/png",
-        "size": 3.85,
-        "url": "/uploads/palette_5dcb79f0e6.png",
-        "previewUrl": null,
-        "provider": "local",
-        "provider_metadata": null,
-        "created_at": "2022-03-22T11:31:53.196Z",
-        "updated_at": "2022-03-22T11:31:53.205Z"
+        "name": "palette.png"
       }
     },
     {
@@ -118,26 +46,8 @@
       "name": "Sosial",
       "isAvailable": false,
       "color": "#D1A5EC",
-      "created_at": "2022-03-22T11:32:27.616Z",
-      "updated_at": "2022-03-24T10:28:06.324Z",
       "image": {
-        "id": 12,
-        "name": "chat.png",
-        "alternativeText": "",
-        "caption": "",
-        "width": 76,
-        "height": 76,
-        "formats": null,
-        "hash": "chat_a958187bc0",
-        "ext": ".png",
-        "mime": "image/png",
-        "size": 3.85,
-        "url": "/uploads/chat_a958187bc0.png",
-        "previewUrl": null,
-        "provider": "local",
-        "provider_metadata": null,
-        "created_at": "2022-03-22T11:32:24.150Z",
-        "updated_at": "2022-03-22T11:32:24.156Z"
+        "name": "chat.png"
       }
     },
     {
@@ -146,26 +56,8 @@
       "name": "Bahasa",
       "isAvailable": false,
       "color": "#DCDCDC",
-      "created_at": "2022-03-22T11:33:05.874Z",
-      "updated_at": "2022-03-24T10:27:01.565Z",
       "image": {
-        "id": 13,
-        "name": "blocks.png",
-        "alternativeText": "",
-        "caption": "",
-        "width": 76,
-        "height": 76,
-        "formats": null,
-        "hash": "blocks_37adfc2049",
-        "ext": ".png",
-        "mime": "image/png",
-        "size": 2.32,
-        "url": "/uploads/blocks_37adfc2049.png",
-        "previewUrl": null,
-        "provider": "local",
-        "provider_metadata": null,
-        "created_at": "2022-03-22T11:33:03.453Z",
-        "updated_at": "2022-03-22T11:33:03.460Z"
+        "name": "blocks.png"
       }
     },
     {
@@ -174,26 +66,8 @@
       "name": "Moral",
       "isAvailable": false,
       "color": "#52C7C0",
-      "created_at": "2022-03-22T11:33:26.116Z",
-      "updated_at": "2022-03-24T10:27:21.792Z",
       "image": {
-        "id": 14,
-        "name": "kindness.png",
-        "alternativeText": "",
-        "caption": "",
-        "width": 77,
-        "height": 77,
-        "formats": null,
-        "hash": "kindness_7de1748880",
-        "ext": ".png",
-        "mime": "image/png",
-        "size": 3.3,
-        "url": "/uploads/kindness_7de1748880.png",
-        "previewUrl": null,
-        "provider": "local",
-        "provider_metadata": null,
-        "created_at": "2022-03-22T11:33:24.049Z",
-        "updated_at": "2022-03-22T11:33:24.055Z"
+        "name": "kindness.png"
       }
     },
     {
@@ -202,26 +76,8 @@
       "name": "Emosi",
       "isAvailable": false,
       "color": "#5CACD2",
-      "created_at": "2022-03-22T11:33:49.701Z",
-      "updated_at": "2022-03-24T10:27:12.269Z",
       "image": {
-        "id": 15,
-        "name": "reaction.png",
-        "alternativeText": "",
-        "caption": "",
-        "width": 71,
-        "height": 71,
-        "formats": null,
-        "hash": "reaction_3596b171a7",
-        "ext": ".png",
-        "mime": "image/png",
-        "size": 4.06,
-        "url": "/uploads/reaction_3596b171a7.png",
-        "previewUrl": null,
-        "provider": "local",
-        "provider_metadata": null,
-        "created_at": "2022-03-22T11:33:47.706Z",
-        "updated_at": "2022-03-22T11:33:47.712Z"
+        "name": "reaction.png"
       }
     }
   ],
@@ -236,37 +92,9 @@
       "minAge": 0,
       "maxAge": 2,
       "category": {
-        "id": 1,
-        "slug": "motorik",
-        "name": "Motorik",
-        "isAvailable": true,
-        "color": "#E09090",
-        "created_at": "2022-03-22T10:32:15.027Z",
-        "updated_at": "2022-03-24T10:27:34.166Z",
-        "image": {
-          "id": 8,
-          "name": "juggling-ball.png",
-          "alternativeText": "",
-          "caption": "",
-          "width": 73,
-          "height": 73,
-          "formats": null,
-          "hash": "juggling_ball_0c8337d822",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 2.8,
-          "url": "/uploads/juggling_ball_0c8337d822.png",
-          "previewUrl": null,
-          "provider": "local",
-          "provider_metadata": null,
-          "created_at": "2022-03-22T10:31:24.207Z",
-          "updated_at": "2022-03-22T10:31:24.213Z"
-        }
+        "id": 1
       },
-      "youtubeUrl": "https://www.youtube.com/watch?v=TvvIBaqoE1U",
-      "published_at": "2022-03-24T13:08:45.489Z",
-      "created_at": "2022-03-24T13:08:24.549Z",
-      "updated_at": "2022-03-27T05:09:52.208Z"
+      "youtubeUrl": "https://www.youtube.com/watch?v=TvvIBaqoE1U"
     }
   ]
 }
